@@ -1,0 +1,96 @@
+html {
+  width: 920px;
+  height: 500px;
+  margin: 0;
+  font-size: 100%;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html h1 {
+  color: #f2f2f2;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: auto;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+html p {
+  color: #ffffff;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: left;
+  font-weight: 400;
+}
+
+html button {
+  width: 146px;
+  height: 48px;
+  border: none;
+  border: 2px solid white;
+  border-radius: 30px;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15;
+  line-height: 25px;
+  text-transform: capitalize;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 920px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background: #e28625;
+  align-items: left;
+  border-radius: 0 8px 8px 0;
+}
+
+.container .sedan {
+  padding-top: 48px;
+  padding-right: 69px;
+  padding-left: 47px;
+  background: #e28625;
+  border-radius: 8px 0 0 8px;
+}
+
+.container .sedan button {
+  color: #e28625;
+  margin-top: 82px;
+}
+
+.container .suvs {
+  padding-top: 48px;
+  padding-right: 53px;
+  padding-left: 47px;
+  background: #006971;
+  border-radius: 8px;
+}
+
+.container .suvs button {
+  color: #006971;
+  margin-top: 82px;
+}
+
+.container .luxury {
+  padding-top: 48px;
+  padding-right: 52px;
+  padding-left: 47px;
+  background: #004140;
+  border-radius: 0 8px 8px 0;
+}
+
+.container .luxury button {
+  color: #004140;
+  margin-top: 82px;
+}
+/*# sourceMappingURL=style.css.map */
